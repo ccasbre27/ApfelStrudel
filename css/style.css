@@ -3,9 +3,42 @@
   box-sizing: border-box;
 }
 
+nav {
+    margin-top: 10px;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans';
+}
+
+ .main-content{
+    flex: 1 0 auto;
+ }
+
+footer{
+    
+    flex: 0 0 auto;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+    
+ }
+
+ footer .footer-limiter {
+    max-width: 880px;
+    margin: 0 auto;
+ }
+
+ footer p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
 }
 
 h1 {
