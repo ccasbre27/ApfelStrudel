@@ -3,15 +3,10 @@
   box-sizing: border-box;
 }
 
-nav {
-    flex: 0 0 auto;
-    margin-top: 10px;
-}
 
 html{
     height: 100%;
 }
-
 
 body {
   margin: 0;
@@ -22,11 +17,20 @@ body {
 }
 
 
+nav {
+    flex: 0 0 auto;
+    margin-top: 10px;
+}
+
  .main-content{
     flex: 1 0 auto;
  }
 
-footer{
+ .main-content section {
+     padding: 30px;
+ }
+
+header, footer {
     
     flex: 0 0 auto;
     background-color: #292c2f;
@@ -38,17 +42,26 @@ footer{
     
  }
 
- footer .footer-limiter {
+ header .header-limiter {
     max-width: 880px;
     margin: 0 auto;
  }
 
- footer p.footer-links {
-    font-size: 18px;
+ header p.header-links {
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
     margin: 0 0 10px;
     padding: 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
 }
 
 h1 {
@@ -172,6 +185,11 @@ section img {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+li {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #navbar-primary.navbar-default {
